@@ -8,7 +8,9 @@ describe('Funcionalidade Pré Cadastro', () => {
     });
     
     it('Deve completar o pré cadastro com sucesso', () => {
-        cy.get('#reg_email').type(faker.internet.email())
+        let emailFaker = faker.internet.email()
+
+        cy.get('#reg_email').type(emailFaker)
         cy.get('#reg_password').type('teste@teste.com')
         cy.get(':nth-child(4) > .button').click()
 
