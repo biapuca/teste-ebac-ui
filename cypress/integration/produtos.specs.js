@@ -15,7 +15,7 @@ describe('Funcionalidade Página de Produtos', () => {
 
     });
 
-    it.only('Deve adicionar um produto ao carrinho', () => {
+    it('Deve adicionar um produto ao carrinho', () => {
         var quantidade = 6
 
         cy.get('[class="product-block grid"]')
@@ -30,5 +30,14 @@ describe('Funcionalidade Página de Produtos', () => {
         cy.get('.dropdown-toggle > .mini-cart-items').should('contain' , quantidade)
         cy.get('.woocommerce-message').should('contain' , quantidade + ' × “Arcadio Gym Short” foram adicionados no seu carrinho.')
 
+    });
+
+    it('Deve adicionar produtos ao carrinho usando comando customizado', () => {
+        cy.addProdutos('Aero Daily Fitness Tee', 'M', 'Black', 2)
+    });
+
+    it('Deve adicionar produtos ao carrinho usando comando customizado', () => {
+        cy.addProdutos('Arcadio Gym Short', '32', 'Red', 2)
+        
     });
 });
