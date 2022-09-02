@@ -1,0 +1,41 @@
+[
+    {
+        "nome": "Bia",
+        "sobrenome": "Araujo",
+        "empresa": "Oi",
+        "endereco": "Rua 2",
+        "numero": "10",
+        "pais": "Brasil",
+        "cidade": "Arraial do Cabo",
+        "estado": "Rio de Janeiro",
+        "cep": "28930000",
+        "teledone": "2222222222",
+        "email": "bia@bia.com"
+    },
+    {"nome": "Gabriel",
+    "sobrenome": "Araujo",
+    "empresa": "Oi",
+    "endereco": "Rua 2",
+    "numero": "10",
+    "pais": "Brasil",
+    "cidade": "Arraial do Cabo",
+    "estado": "Rio de Janeiro",
+    "cep": "28930000",
+    "telefone": "2222222222",
+    "email": "bia@bia.com"
+
+    },
+    {"nome": "Vitoria",
+    "sobrenome": "Araujo",
+    "empresa": "Oi",
+    "endereco": "Rua 2",
+    "numero": "10",
+    "pais": "Brasil",
+    "cidade": "Arraial do Cabo",
+    "estado": "Rio de Janeiro",
+    "cep": "28930000",
+    "teledone": "2222222222",
+    "email": "bia@bia.com"
+
+    }
+]
